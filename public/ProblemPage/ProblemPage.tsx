@@ -16,7 +16,7 @@ function ProblemPage({ qid }: { qid: string }) {
                 <CustomHeader />
                 <div
                     id="cont"
-                    className="relative flex flex-row h-[calc(100vh-15px)] w-full mt-[8px] overflow-hidden "
+                    className="relative flex lg:flex-row h-[calc(100vh-15px)] sm:flex-col w-full mt-[8px] overflow-hidden "
                 >
                     <div
                         id="explanation"
